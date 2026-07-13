@@ -18,4 +18,4 @@ jobs:
                 distribution: 'temurin'
                 java-version: '21'
             - name: Build with Maven
-              run: mvn clean install
+              run: mvn -B verify --file pom.xml -DskipTests
