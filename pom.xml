@@ -69,4 +69,11 @@
             </plugins>
         </pluginManagement>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Dhruv0306 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/dhruv0306/eventbus</url>
+        </repository>
+    </distributionManagement>
 </project>
